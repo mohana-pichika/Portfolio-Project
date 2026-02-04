@@ -1,8 +1,8 @@
 # Portfolio Part 1: Component Brainstorming
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) then delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) then delete this comment -->
-- **Due Date**: <!-- TODO: fill with due date and time (e.g., 10/17 @ 3:10 PM EST) then delete this comment -->
+- **Name**: Mohana Pichika
+- **Dot Number**: Pichika.1
+- **Due Date**: 02/06/2026 @ 01:50 PM EST
 
 ## Assignment Overview
 
@@ -106,15 +106,9 @@ Below is further rationale/explanation for the rubric items above:
 > brainstorming. Plus it helps us get to know you better! Feel free to share
 > images in this section.
 
-<!-- TODO: briefly talk about your interests then delete this comment.
-Also, protip: you can preview what your response looks like by hitting
-the magnifying glass icon in the upper-right corner or pressing CTRL+K and
-then V. This kind of button combination is called a chord, for whatever
-reason -->
+I really enjoy reading and watching movies. I also crafty things like knitting and crocheting. As for career goals, I want to be an software engineer.
 
 ## Assignment
-
-<!-- TODO: read the assignment section then delete this comment -->
 
 As previously stated, you are tasked with brainstorming 3 possible components.
 To aid you in this process, we have provided [some example components][example-components]
@@ -211,9 +205,9 @@ will likely refine your design to make your implementation easier to use.
 
 > Please use this section to share your designs.
 
-- Component Design #1: <!-- TODO: give component a name then delete this comment -->
+- Component Design #1: Library
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - The purpose of this componenet is to keep track of-
   - **Kernel Methods**:
     - <!-- TODO: list kernel methods then delete this comment -->
   - **Secondary Methods**:
