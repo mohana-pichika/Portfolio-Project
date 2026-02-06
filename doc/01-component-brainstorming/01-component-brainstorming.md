@@ -6,8 +6,6 @@
 
 ## Assignment Overview
 
-<!-- TODO: read the assignment overview then delete this comment -->
-
 The overall goal of the portfolio project is to have you design and implement
 your own OSU component. There are no limits to what you choose to design and
 implement, but your component must fit within the constraints of our software
@@ -28,8 +26,6 @@ detailed feedback, which may help you decide which component to ultimately
 implement.
 
 ## Assignment Checklist
-
-<!-- TODO: browse the checklist then delete this comment -->
 
 To be sure you have completed everything on this assignment, we have littered
 this document with TODO comments. You can browse all of them in VSCode by
@@ -52,8 +48,6 @@ to the tree diagram (you may remove this one as well):
 
 ## Assignment Learning Objectives
 
-<!-- TODO: read the assignment learning objectives then delete this comment -->
-
 Without learning objectives, there really is no clear reason why a particular
 assessment or activity exists. Therefore, to be completely transparent, here is
 what we're hoping you will learn through this particular aspect of the portfolio
@@ -66,8 +60,6 @@ project. Specifically, students should be able to:
    discipline
 
 ## Assignment Rubric: 10 Points
-
-<!-- TODO: read the assignment rubric then delete this comment -->
 
 Again, to be completely transparent, most of the portfolio project, except the
 final submission, is designed as a formative assessment. Formative assessments
@@ -116,8 +108,6 @@ that may help you in your brainstorming. All of these components were made at
 some point by one of your peers, so you should feel confident that you can
 accomplish any of them.
 
-<!-- TODO: browse the list of possible projects then delete this comment -->
-
 There is no requirement that you use any of the components listed above.
 If you want to model something else, go for it! Very common early object
 projects usually attempt to model real-world systems like banks, cars,
@@ -137,7 +127,7 @@ about different ways you might allow a client to manipulate your component.
 
 ### Example Component
 
-<!-- TODO: review this example component then delete this comment -->
+<
 
 To help you brainstorm a few components, we've provided an example below of a
 component you already know well: NaturalNumber. We highly recommend that you
@@ -256,26 +246,28 @@ will likely refine your design to make your implementation easier to use.
       Answer, explain, and give at least one example:
       - I am not sure.
 
-- Component Design #3: <!-- TODO: give component a name then delete this comment -->
+- Component Design #3: Writing calculator
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - This component helps assit with wrting. Given the amount of days and estimated word count it reports out a daily workdcount limit. It also calculates how much words you will have written given the duration the days and writing pace.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - `void addTotalWordcount(int wc)`: add `wc` to the writing calculator
+    - `void days(int days)`: adds the amount of `days` it takes to the writing calcualtor.
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - `int estWC(int days, int pace)`: given `days` and `pace`, this method calculates how much words you will have by the end of `days`.
+    - `int Daily(int days, int WC)`: given goal `WC` and `days`, it calculates how your daily writing goal.
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, it should be mutable. The elements in this compenent can be removed and added whereever it is.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I am not sure. It may use map to link the word count and days together but I still dont know.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I am not sure.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I don't think you can. I am not sure on how to explain it.
 
 ## Post-Assignment
 
