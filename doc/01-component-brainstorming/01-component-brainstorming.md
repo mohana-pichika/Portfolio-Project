@@ -207,45 +207,54 @@ will likely refine your design to make your implementation easier to use.
 
 - Component Design #1: Library
   - **Description**:
-    - The purpose of this componenet is to keep track of-
+    - The purpose of this componenet is to keep track of all the books I have read and all the books I want to read. This cmponenet will keep track of the status, word count, author and other categories necessary for this libarary.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    - `String addBook(String title)`: add `title` to the Library
+    - `String author(String Title, string author)`: given `title` library adds `author` to library with the certian `title`.
+    - `boolean isDone()`: reports if book is completed or not
+    - `void removeBook(String Title)`
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - `void addWordCount(String title)`: adds worccount to `title` of a specefic book.
+    - `String genre(String title)`: returns genre of `title`
+    - `void addGenre(String title, String genre)`: add  `genre` to `title`
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, it will be mutable. You can add books to the library and remove them.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes, we need to link the title of the book to the author like a map.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I am not sure.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I am not sure.
 
-- Component Design #2: <!-- TODO: give component a name then delete this comment -->
+- Component Design #2: Craft Project Tracker
   - **Description**:
-    - <!-- TODO: describe your component then delete this comment -->
+    - Keeps a list of all the craft projects I am doing. It keeps track of the progress, type of project, and more factors. It also reports if the project is done, if it is high prioty or it can make me do a random project I forgot I had to do.
   - **Kernel Methods**:
-    - <!-- TODO: list kernel methods then delete this comment -->
+    -`void addProject(String name)`: add `name` to the Project Tracker
+    - `void type(String name, string type)`: given `name` project tracker adds `type` to link with `name` in project tracker.
+    - `boolean isDone()`: reports if project is completed or not
   - **Secondary Methods**:
-    - <!-- TODO: list secondary methods then delete this comment -->
+    - -`int priotoryNum(String projectName)`: finds `projectName` in the project tracker and reports its postion/ prioty.
+    - `String highPrioty(int pos)`: given `pos` in project tracker this methods returns if it his high or low prioty considering how low the position is.
+    - `int completed()`: reports number of completed projects by sorting if it is done or not.
   - **Additional Considerations** (*note*: "I don't know" is an acceptable
     answer for each of the following questions):
     - Would this component be mutable? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - yes, the stuff int the components is alywas changing.
     - Would this component rely on any internal classes (e.g., `Map.Pair`)?
       Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - Yes it would use internal classes like Map since it needs to link the project name with the type and other categories.
     - Would this component need any enums or constants (e.g.,
       `Program.Instruction`)? Answer and explain:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I am not sure.
     - Can you implement your secondary methods using your kernel methods?
       Answer, explain, and give at least one example:
-      - <!-- TODO: provide an argument then delete this comment -->
+      - I am not sure.
 
 - Component Design #3: <!-- TODO: give component a name then delete this comment -->
   - **Description**:
