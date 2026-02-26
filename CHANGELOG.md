@@ -13,3 +13,13 @@ the following form: YYYY.0M.0D.
 - Designed a Library component
 - Designed a Project Tracker component
 - Designed a Writing Calculator component
+
+## 2026.02.06
+
+### Added
+
+- Designed a proof of concept for library component
+
+### Updated
+
+- Changed design to include a return for removeBook
