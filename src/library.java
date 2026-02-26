@@ -2,13 +2,24 @@
 
 public class library {
 
+    private String rep;
+
+    private void createNewRep() {
+        this.rep = "";
+    }
+
     public library() {
 
     }
 
+    public library(String title) {
+        this.rep = title;
+    }
+
     //kernal Methods
-    public String addBook() {
+    public String addBook(String title) {
         //something here
+
     }
 
     public String author() {
@@ -19,7 +30,7 @@ public class library {
         //something here
     }
 
-    public void removeBook() {
+    public String removeBook() {
         //something here
     }
 

@@ -114,6 +114,8 @@ Below is further rationale/explanation for the rubric items above:
 > to create a new design. In you do end up picking one at random, you should
 > disclose that here as well.
 
+   I will pick the library design. I already have a idea of what I want to do for that and it is more concreete than the other designs. I also feel more passinalty for the libarary project so it will be more enjoyable to do.
+
 > Once you've argued your choice of design, make a branch in your new repo called
 > something like `proof-of-concept`. There are many ways to do this, but my
 > preference is to use GitHub Desktop. From there, you can click the `Branch`
