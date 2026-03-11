@@ -1,8 +1,8 @@
 # Portfolio Part 3: Component Interfaces
 
-- **Name**: <!-- TODO: fill with first and last name (e.g., Brutus Buckeye) and delete this comment -->
-- **Dot Number**: <!-- TODO: fill with OSU dot number (e.g., buckeye.17) and delete this comment -->
-- **Due Date**: <!-- TODO: fill out with due date and time (e.g., 10/17 @ 3:10 PM EST) and delete this comment -->
+- **Name**: Mohana Pichika
+- **Dot Number**: Pichika.1
+- **Due Date**: 03/10/2026 @ 01:50 PM EST
 
 ## Assignment Overview
 
@@ -131,6 +131,8 @@ diagrams already, so you should be able to draw one. Feel free to make a
 hierarchy diagram using whatever tools you would like. Then, include a picture
 of it in this folder. You may also embed it just below using markdown syntax
 (i.e., `![ALT TEXT](path/to/file)`).
+
+![ALT TEXT](lib\Screenshot 2026-03-10 124450.png)
 
 <!-- TODO: make a diagram of your component hierarchy then delete this comment -->
 
